@@ -1,0 +1,10 @@
+<!-- Favicon https://favicon.io/favicon-generator/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="https://murilokrominski.github.io/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://murilokrominski.github.io/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://murilokrominski.github.io/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="https://murilokrominski.github.io/favicon_io/site.webmanifest">
+<link rel="mask-icon" href="https://murilokrominski.github.io/favicon_io/safari-pinned-tab.svg" color="#0038A8">
+
+<!-- Meta Tags -->
+<meta name="msapplication-TileColor" content="#0038A8">
+<meta name="theme-color" content="#FFFFFF">
