@@ -1,0 +1,178 @@
+/* Importando a fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilizando o título principal */
+h1 {
+    color: #005EB8;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #005EB8;
+    border-bottom: 2px solid #005EB8;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* Blocos de citação */
+blockquote {
+    background-color: #e6f2ff;
+    border-left: 5px solid #005EB8;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Estilizando as listas */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilizando os links */
+a {
+    color: #005EB8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Google Tradutor */
+.goog-te-banner-frame.skiptranslate, .goog-te-banner-frame {
+    display: none !important;
+}
+.goog-te-gadget-icon {
+    display: none !important;
+}
+body {
+    top: 0px !important;
+}
+
+/* Estilizando a caixa de código */
+pre {
+    background-color: #d0eaff;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-x: auto;
+    line-height: 1.6;
+}
+
+code {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #d0eaff;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-size: 90%;
+    line-height: 1.6;
+}
+
+/* Linha */
+hr {
+    border: none;
+    height: 5px;
+    background-color: #0038B8;
+}
+
+/* Rodapé */
+footer {
+    background-color: #005EB8;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para as seções de repositórios */
+h3 {
+    color: #005EB8;
+    margin-top: 20px;
+}
+
+ul li strong {
+    color: #005EB8;
+}
+
+/* Bordas arredondadas para blocos */
+ul, blockquote, pre, footer {
+    border-radius: 10px;
+}
+
+/* Responsividade para o iframe */
+.iframe-container {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.responsive-iframe {
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* Estilizando o seletor de idiomas */
+.language-selector {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha */
+    justify-content: center; /* Centraliza as bandeiras */
+    gap: 10px; /* Adiciona espaçamento entre as bandeiras */
+    margin-bottom: 20px; /* Espaço inferior */
+    max-width: 100%; /* Garante que não ultrapasse a largura da página */
+    padding: 0 10px; /* Pequeno padding para não colar nas bordas da página */
+}
+
+.language-selector a {
+    /* Removido o margin individual, pois o gap já resolve o espaçamento */
+}
+
+.language-selector img {
+    border-radius: 5px;
+    width: 40px;
+    height: auto;
+}
+
+/* Remover itálico dos itens de lista */
+ul li {
+    font-style: normal;
+}
+
+/* Aplicando estilo aprimorado para o itálico */
+em, i, blockquote em, blockquote i, ul li em, ul li i {
+    font-family: 'Roboto', sans-serif; /* Mantendo a fonte principal */
+    font-style: italic; /* Itálico mais acentuado */
+    font-weight: 400; /* Um peso regular para não ficar muito leve */
+    color: #171717; /* Cor levemente destacada */
+    letter-spacing: 0.4px; /* Pequeno espaçamento para visibilidade */
+}
